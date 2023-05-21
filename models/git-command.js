@@ -11,13 +11,7 @@ class GitCommand {
 
     //Command: git status
     status(){    
-        const jsLocation = Object.keys(this.working_directory.new_changes)[1];
-        if(this.changes == '.'){
-            return 'You have 0 change/s.\n';
-        }
-        else{
-            return 'You have 1 change/s.\n'+jsLocation+'';
-        }
+
     }
 
     //Command: git add <filename/file directory/wildcard> 
